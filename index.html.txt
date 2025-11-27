@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的AI工具</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="#home" class="logo">AI工具</a>
+            <div class="nav-links">
+                <a href="#problem">问题</a>
+                <a href="#challenges">挑战</a>
+                <a href="#solutions">解决方案</a>
+                <a href="#results">成果</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>把时间，还给创造者</h1>
+            <p>一款AI工具背后的人文思考与技术实践</p>
+            <a href="#problem" class="button">了解我们的故事</a>
+        </div>
+    </section>
+
+    <section id="problem" class="problem">
+        <div class="container">
+            <h2>我们发现的效率困境</h2>
+            <p>团队中最聪明的大脑，每天却在与繁琐的数据搬运搏斗。他们的灵感和创造力，被淹没在长达4小时、错误率高达40%的重复劳作中。这不仅是效率的浪费，更是才华的沉默。</p>
+        </div>
+    </section>
+
+    <section id="challenges" class="challenges">
+        <div class="container">
+            <h2>我们遭遇的拦路虎</h2>
+            <div class="challenge-list">
+                <div class="challenge-item">
+                    <h3>元素定位难题</h3>
+                    <p>目标网页元素动态加载、结构复杂且缺乏唯一ID，传统定位方法大面积失效。</p>
+                </div>
+                <div class="challenge-item">
+                    <h3>后台运行瓶颈</h3>
+                    <p>工具运行时占用大量CPU/内存资源，无法长时间稳定后台执行。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="solutions" class="solutions">
+        <div class="container">
+            <h2>我们的破解之道</h2>
+            <div class="solution-list">
+                <div class="solution-item">
+                    <h3>智慧之眼：XPath与父级定位</h3>
+                    <p>通过XPath和父级元素同结构辅助定位，将元素定位成功率从30%提升至98%。</p>
+                </div>
+                <div class="solution-item">
+                    <h3>隐形引擎：无头模式</h3>
+                    <p>采用浏览器无头模式，大幅降低资源占用，实现24小时稳定运行。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="results" class="results">
+        <div class="container">
+            <h2>我们创造的价值</h2>
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-desc">用户覆盖</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">96%</div>
+                    <div class="stat-desc">准确率</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-desc">每月节省小时数</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>将时间还给创造者，这是我们做AI的初心。</p>
+        </div>
+    </footer>
+</body>
+</html>
