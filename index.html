@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>把时间，还给创造者</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        }
+        body {
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: white;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+        .hero {
+            text-align: center;
+            margin-bottom: 60px;
+            padding: 40px 0;
+        }
+        h1 {
+            font-size: 2.8rem;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        h2 {
+            border-left: 4px solid #667eea;
+            padding-left: 15px;
+            margin: 40px 0 20px 0;
+            font-size: 1.8rem;
+        }
+        h3 {
+            margin: 15px 0 10px 0;
+            color: #667eea;
+        }
+        p {
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+        .card-container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin: 30px 0;
+        }
+        .card {
+            flex: 1;
+            min-width: 250px;
+            padding: 25px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+        }
+        .stats {
+            display: flex;
+            gap: 20px;
+            text-align: center;
+            flex-wrap: wrap;
+            margin: 40px 0;
+        }
+        .stat-item {
+            flex: 1;
+            min-width: 150px;
+            padding: 20px;
+        }
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 5px;
+        }
+        @media (max-width: 768px) {
+            .container {
+                margin: 20px;
+                padding: 20px;
+            }
+            h1 {
+                font-size: 2.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 英雄区域 -->
+        <section class="hero">
+            <h1>把时间，还给创造者</h1>
+            <p style="font-size: 1.3rem; color: #666;">一款AI工具背后的人文思考与技术实践</p>
+        </section>
+
+        <!-- 问题介绍 -->
+        <section>
+            <h2>我们发现的效率困境</h2>
+            <p>我们发现，团队中最聪明的大脑，每天却在与繁琐的数据搬运搏斗。他们的灵感和创造力，被淹没在<strong>长达4小时、错误率高达40%</strong>的重复劳作中。</p>
+            <p>这不仅是效率的浪费，更是<strong>才华的沉默</strong>。</p>
+        </section>
+
+        <!-- 挑战 -->
+        <section>
+            <h2>我们遭遇的拦路虎</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>元素定位难题</h3>
+                    <p>目标网页元素动态加载、结构复杂且缺乏唯一ID，传统定位方法大面积失效。</p>
+                </div>
+                <div class="card">
+                    <h3>后台运行瓶颈</h3>
+                    <p>工具运行时占用大量CPU/内存资源，无法长时间稳定后台执行。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 解决方案 -->
+        <section>
+            <h2>我们的破解之道</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>智慧之眼：XPath与父级定位</h3>
+                    <p>通过XPath精准定位和父级元素辅助，定位成功率从<strong>30%提升至98%</strong>。</p>
+                </div>
+                <div class="card">
+                    <h3>隐形引擎：无头模式</h3>
+                    <p>采用浏览器无头模式，CPU占用降低<strong>40%</strong>，实现真正的后台稳定运行。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 成果展示 -->
+        <section>
+            <h2>我们创造的价值</h2>
+            <div class="stats">
+                <div class="stat-item">
+                    <div class="stat-number">50+</div>
+                    <div>用户覆盖</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">96%</div>
+                    <div>准确率</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">500+</div>
+                    <div>每月节省小时</div>
+                </div>
+            </div>
+            <p>单次任务处理从<strong>4小时 → 8分钟</strong>，效率提升约<strong>30倍</strong>。</p>
+            <p>为整个团队<strong>每月节省超过500个人工小时</strong>，将时间真正还给创造者。</p>
+        </section>
+    </div>
+</body>
+</html>
